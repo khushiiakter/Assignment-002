@@ -864,7 +864,7 @@ footer{
     .footer-container, .foot-2{
         flex-direction: column;
     }
-    .footer-container, .all-rights{
+    .footer-container, .all-rights, .studio{
         max-width: 353px;
         margin: 0 auto;
     }
@@ -888,4 +888,9 @@ footer{
         padding-bottom: 57px;
     }
 
+    .studio-content{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 80px;
+        padding-bottom: 80px;
+    }
 }    
