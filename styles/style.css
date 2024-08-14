@@ -292,7 +292,7 @@ main section{
     display: flex;   
     justify-content: space-between;
     /* gap: 165px; */
-    border: 1px solid rgb(78, 25, 25);
+    /* border: 1px solid rgb(78, 25, 25); */
     padding: 30px 32px 30px 54px;
     border-radius: 18px;
     background: #222222;
@@ -446,10 +446,146 @@ th{
     border: none;
     background: rgba(255, 255, 255, 0.102);
 }
-
-
 /* bmi calculator */
 
+/* meet our team section  */
+.meet-our-team{
+    /* text-align: center; */
+    padding-top: 88px;
+    padding-bottom: 58px;
+}
+.team-content{
+    text-align: center;
+    max-width: 671px;
+    margin: 0 auto;
+}
+.team-content h3{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.team-content p{
+    color: #FFFFFF80;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-bottom: 58px;
+}
+.teams-member{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.123);
+}
+.team-box{
+    width: 326.67px;
+    height: 272px;
+    position: relative;
+}
+.team-name{
+    position: absolute;
+    bottom: 16px;
+    left: 19px;
+}
+.team-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+    filter: brightness(85%);
+    
+}
+.team-name h5{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.team-name p{
+    color: #FFFFFF80;
+    font-size: 13px;
+}
+
+/* main part stop */
+
+footer{
+    background: #1a1a1a;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1060px;
+    margin: 0 auto;
+    padding-top: 66px;
+    padding-bottom: 79px;
+}
+.foot-1{
+    width: 443px;
+}
+.foot-1 h2{
+    color: #E6533C;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    font-style: italic;
+}
+.foot-1 p{
+    color: #FFFFFF80;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+.foot-2{
+    display: flex;
+    gap: 152px;
+    
+    
+    /* width: 514px; */
+}
+.get-started h4{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 39px;
+}
+.get-column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.get-column p{
+    color: #FFFFFF80;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.all-rights{
+    max-width: 1060px;
+    margin: 0 auto;
+    text-align: center;
+}
+.all-rights hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.all-rights p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF80;
+    padding: 33px 0;
+}
 /* responsive for mobile  */
 @media screen and (max-width: 576px) {
     nav{
