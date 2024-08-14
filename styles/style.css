@@ -587,7 +587,55 @@ footer{
     color: #FFFFFF80;
     padding: 33px 0;
 }
+/* STUDIO */
+.studio{
+    width: 1060px;
+    margin: 0 auto;
+}
+.studio h3{
+    font-size: 68px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    text-align: center;
+}
+.studio-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 60px;
+    justify-content: center;
+    /* border: 1px solid white; */
+}
+.studio-card{
+    width: 330px;
+    
+    position: relative;
+    
+}
+.training-box h4{   
+    color: #ffffff;
+    font-size: 55px;   
+    margin-bottom: 5px;
+    position: absolute;
+    bottom: -40px;
+    left: 50px;
+    text-align: center;
+    font-family: 'Miama', sans-serif;
+    
+    
+}
 
+.studio-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(80%);
+    border-radius: 20px;
+    box-shadow: -10px -15px 35px 4px rgba(156, 136, 136, 0.418);
+
+}
 
 /* responsive for mobile  */
 
