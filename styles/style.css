@@ -666,8 +666,9 @@ footer{
     }
     
     .banner-title{
+        max-width: 238px;
         font-size: 2.25rem;
-        width: 285px;
+        
     }
     .shape{
         font-size: 4.32rem;
