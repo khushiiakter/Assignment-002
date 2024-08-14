@@ -348,6 +348,7 @@ main section{
     line-height: 120%;
     letter-spacing: 0%;
     color: #FFFFFF;
+    margin-bottom: 14px;
 }
 .bmi-content p{
     color: #FFFFFF80;
@@ -586,7 +587,13 @@ footer{
     color: #FFFFFF80;
     padding: 33px 0;
 }
+
+
 /* responsive for mobile  */
+
+
+
+
 @media screen and (max-width: 576px) {
     nav{
         max-width: 353px;
@@ -621,9 +628,7 @@ footer{
     .banner-img{
         width: 353px;
         margin: 0 auto;
-        margin-top: 48px;
-        
-        
+        margin-top: 48px;       
     }
     .banner-description{
         margin-right: 78px;
@@ -703,8 +708,6 @@ footer{
     }
     .habit-img-container{        
         grid-template-columns: repeat(1 ,1fr);
-        border: 1px solid red;
-        
     }
     .habit-content h3{
         font-size: 32px;
@@ -760,4 +763,73 @@ footer{
         object-position: 60% 20%;
         zoom: 40%;
     }
-}
+    /* bmi */
+    .bmi-container{
+        flex-direction: column;
+        gap: 42px;      
+        padding-top: 34px;
+        padding-bottom: 43px;
+    }
+    .bmi, .bmi-container, .your-bmi{
+        max-width: 353px;
+        margin: 0 auto;
+    }
+    .your-bmi input, select{
+        width: 100%;
+    }
+    .bmi-content{
+        margin-bottom: 32px;
+    }
+    .bmi-columns h4{
+        font-size: 23px;
+    }
+    .your-bmi{
+        margin-bottom: 34px;
+    }
+
+    /* team section */
+    .teams-member{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .meet-our-team{
+        /* text-align: center; */
+        padding-top: 66px;
+        padding-bottom: 66px;
+    }
+    .team-box{
+        width: 313px;
+    }
+    .team-content p{      
+        margin-bottom: 37px;
+    }
+    /* foot */
+    .footer-container, .foot-2{
+        flex-direction: column;
+    }
+    .footer-container, .all-rights{
+        max-width: 353px;
+        margin: 0 auto;
+    }
+    .foot-2{
+        gap: 20px;
+    }
+    .footer-container{
+        padding-top: 44px;
+        padding-bottom: 72px;
+    }
+    .foot-1 h2{
+        margin-bottom: 20px;
+    }
+    .foot-1 p{
+        margin-bottom: 30px;
+        width: 317px;
+    }
+    .all-rights p{
+        padding-top: 41px;
+        padding-bottom: 57px;
+    }
+
+}    
